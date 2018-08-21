@@ -11,6 +11,9 @@
   .logo {
     height: 75px; 
   }
+  .footer_header {
+    font-size: 26px;
+  }
 }
 @media screen and (min-width: 550px) {
  

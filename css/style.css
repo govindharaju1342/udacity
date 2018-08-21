@@ -106,6 +106,7 @@ h1, h2, h3, h4 {
 
 .flex > div {
 	flex: 1 1 150px;
+  text-align: center;
 }
 
 .flex > div > img{
@@ -124,4 +125,11 @@ h1, h2, h3, h4 {
   font-weight: 400;
   font-size: 32px;
   text-align: center;
+}
+
+a {
+  color: #000;
+  text-decoration: none; 
+  font-size: 18px;
+  font-weight: 100;
 }
