@@ -14,4 +14,32 @@
   .footer_header {
     font-size: 26px;
   }
-} 
+}
+@media screen and (min-width: 550px) {
+  .left_part  h3 {
+    font-size: 14px;
+   }
+   .header_text h1 { 
+    font-size: 45px;
+  }
+  .header_text h4 {
+    font-size: 16px;
+  }
+  .logo {
+    height: 75px; 
+  }
+  .footer_header {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+   .logo {
+    height: 100px; 
+  }
+}
+
+@media screen and (min-width: 850px) {
+ .logo {
+    height: 100px; 
+  }
+}
