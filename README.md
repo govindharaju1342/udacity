@@ -10,4 +10,4 @@ The webpage is responsive and done by HTML and CSS.
 ## Mockup Portfolio PDF
 
 
-*  (Mockup PDF [here](https://govindharaju1342.github.io/udacity.github.io/))	
+*  (Mockup PDF [here](https://govindharaju1342.github.io/udacity.github.io/design-mockup-portfolio.pdf))	
