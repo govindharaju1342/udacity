@@ -5,7 +5,10 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1, 
+h2, 
+h3, 
+h4 {
   margin: 0;
   font-weight: normal;
 }
@@ -56,7 +59,9 @@ h1, h2, h3, h4 {
 }
 
 .logo {
-  height: 100px; 
+  background: url('../images/logo.png') no-repeat;
+  background-position: left;
+  background-size: contain;
 }
 
 .color_div  {
@@ -89,12 +94,9 @@ h1, h2, h3, h4 {
   font-size: 28px;
 }
 
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
+.content h3{
+  text-align: center;
+  font-size: 26px;
 }
 
 .flex {

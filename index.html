@@ -12,16 +12,13 @@
  </head>
   <body>
   	<div class="container">
-  		<div class="header">
-  			<div class="logo-left left">
-  				<img class="logo" src="images/logo.png" alt="logo">
-  			</div>
-  			<div class="header_text right">
+  		<header class="header">  			
+  			<div class="header_text logo">
   				<h1 class="header_title">jane doette</h1>
   				<h4>front-end ninja</h4>
   			</div>
-  		</div>
-  		<div class="left_part">
+  		</header>
+  		<aside class="left_part">
   			<div class="color_div color1">
   			</div>
   			<h3>#02b3e4</h3>
@@ -31,29 +28,33 @@
   			<div class="color_div color3">
   			</div>
   			<h3>#7d97ad</h3>
-  		</div>
-  		<div class="content">
-  		</div>
-  		<div class="footer">
+  		</aside>
+  		<section class="content">
+        <h3>welcome</h3>
+  		</section>
+  		<footer class="footer">
   			<h2 class="footer_header">Featured Work</h2>
   			<div class="flex">
   				<div class="flex_img">
-  					<img src="images/appify.png" alt="Appify">
+  					<img src="images/appify.png" alt="Appify"  sizes="50vw"
+            srcset="images/appify-min.png 200w,  images/appify.png 400w">
   					<h2>Appify</h2>
-            <a href="#">http://github.com/udacity/Appify</a>
+            <a href="#" target="_blank">http://github.com/udacity/Appify</a>
   				</div>
   				<div class="flex_img">
-  					<img src="images/sunflower.jpg" alt="Sunflower">
+  					<img src="images/sunflower.png" alt="Sunflower" sizes="50vw"
+            srcset="images/sunflower-min.png 200w,  images/sunflower.png 400w">>
   					<h2>Sunflower</h2>
-            <a href="#">http://github.com/udacity/Sunflower</a>
+            <a href="#" target="_blank">http://github.com/udacity/Sunflower</a>
   				</div>
   				<div class="flex_img">
-  					<img src="images/bokeh.png" alt="Bokeh">
+  					<img src="images/bokeh.png" alt="Bokeh" sizes="50vw"
+            srcset="images/bokeh-min.png 200w,  images/bokeh.png 400w">>
   					<h2>Bokeh</h2>
-            <a href="#">http://github.com/udacity/Bokeh</a>
+            <a href="#" target="_blank">http://github.com/udacity/Bokeh</a>
   				</div>
   			</div>
-  		</div>
+  		</footer>
   	</div>
   </body>
 </html>
